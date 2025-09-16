@@ -12,3 +12,6 @@ print(22)
 
 a = 10
 b = 20
+
+# Say hello
+print("Helo Kien")
