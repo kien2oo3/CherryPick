@@ -15,3 +15,5 @@ b = 20
 
 # Say hello
 print("Helo Kien")
+
+print("Kien say hello")
