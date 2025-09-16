@@ -4,6 +4,8 @@ print("Hello")
 
 print("2003")
 
+print("Hi hi")
+
 # Ghi tuổi
 
 print(22)
