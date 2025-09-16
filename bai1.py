@@ -9,3 +9,5 @@ print("Hi hi")
 # Ghi tuổi
 
 print(22)
+
+a = 10
