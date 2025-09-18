@@ -7,4 +7,5 @@ print("5")
 def abc():
     pass
 
+
 print("123")
