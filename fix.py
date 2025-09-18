@@ -6,9 +6,9 @@ print("2")
 
 print("5")
 
-def abc():
+print("demo")
+def a1():
     pass
 
-print("demo")
 def a1():
     pass
