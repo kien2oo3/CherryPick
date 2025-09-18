@@ -1,0 +1,7 @@
+th_last_check = fields.Datetime(string="Liên hệ lần cuối", default=lambda self: fields.Datetime.now(), tracking=True)
+th_birthday = fields.Date(string="Ngày sinh", related="th_partner_id.th_partner_birthday", store=True)
+th_specialization_class = fields.Char('Lớp chuyên ngành', related="th_partner_id.th_specialization_class", store=True)
+th_list_student_in_tuition_period_id = fields.Many2one('th.list.student.in.tuition.period', string='Từng bản ghi trong danh sách sinh viên import ở đợt', store=True)
+th_customer_code_aum = fields.Char(string='Mã khách hàng', related="th_partner_id.th_customer_code_aum", store=True)
+th_opportunity_code_crm = fields.Char(string='Mã cơ hội',related="th_partner_id.th_opportunity_code_crm", store=True)
+th_subject_ids = fields.Many2many('th.subject', string="Môn học")
