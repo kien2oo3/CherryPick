@@ -11,6 +11,3 @@ print("5")
 print("demo")
 def a1():
     pass
-
-def a2():
-    pass
