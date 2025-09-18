@@ -10,3 +10,7 @@ th_number_of_credits = fields.Char('Số tín chỉ', compute="_compute_subject_
 th_credit_unit_price = fields.Monetary('Số tiền của 1 tín chỉ', tracking=True)
 th_caregiver_SRM = fields.Many2one('res.users', string='Người Chăm Sóc bên th.student', store=True, related="th_partner_id.th_user_id")
 readonly_domain = fields.Char(compute="_compute_readonly_domain")
+abc123 = fields.Char(compute="_compute_readonly_domain")
+
+def abc():
+    print("abc")
