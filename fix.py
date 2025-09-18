@@ -8,3 +8,7 @@ print("5")
 
 def abc():
     pass
+
+print("demo")
+def a1():
+    pass
