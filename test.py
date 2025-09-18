@@ -5,3 +5,8 @@ th_list_student_in_tuition_period_id = fields.Many2one('th.list.student.in.tuiti
 th_customer_code_aum = fields.Char(string='Mã khách hàng', related="th_partner_id.th_customer_code_aum", store=True)
 th_opportunity_code_crm = fields.Char(string='Mã cơ hội',related="th_partner_id.th_opportunity_code_crm", store=True)
 th_subject_ids = fields.Many2many('th.subject', string="Môn học")
+th_subject_code = fields.Char('Mã môn', compute="_compute_subject_info", store=True)
+th_number_of_credits = fields.Char('Số tín chỉ', compute="_compute_subject_info", store=True)
+th_credit_unit_price = fields.Monetary('Số tiền của 1 tín chỉ', tracking=True)
+th_caregiver_SRM = fields.Many2one('res.users', string='Người Chăm Sóc bên th.student', store=True, related="th_partner_id.th_user_id")
+readonly_domain = fields.Char(compute="_compute_readonly_domain")
