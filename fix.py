@@ -6,5 +6,3 @@ print("5")
 
 def abc():
     pass
-print("Bùi Trung Kiên")
-print("123")
