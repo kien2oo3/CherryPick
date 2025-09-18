@@ -10,5 +10,5 @@ print("demo")
 def a1():
     pass
 
-def a1():
+def a2():
     pass
