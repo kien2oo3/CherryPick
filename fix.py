@@ -1,14 +1,10 @@
 print("1")
-print("2")
+def a2():
+    pass
+print("a2 test")
 print("3")
-print("====================")
 print("4")
-print("====================")
-
-
 print("5")
 
 def abc():
     pass
-
-print("Bùi Trung Kiên")
