@@ -1,7 +1,7 @@
 print("Kiên 01")
 
 def test():
-    return 1
+    return 123
 
 a = 1 + 3
 
