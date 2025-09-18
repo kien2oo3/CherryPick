@@ -12,7 +12,3 @@ def abc():
 print("demo")
 def a1():
     pass
-
-
-
-print("Bùi Trung Kiên")
