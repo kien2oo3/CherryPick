@@ -1,6 +1,7 @@
 print("A")
 print("B")
 print(123)
+b = 100
 print("123")
 def abc():
     return 100
