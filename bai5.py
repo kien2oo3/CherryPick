@@ -5,3 +5,5 @@ print("123")
 a = 10
 def sayHello():
     print("Hello")
+c = a + 10
+print(c)
