@@ -10,3 +10,4 @@ c = a + 10
 print(c)
 def tinhnang():
     return "123"
+print("12345")
