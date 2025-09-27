@@ -8,3 +8,5 @@ def sayHello():
     print("Hello")
 c = a + 10
 print(c)
+
+print("Tính năng mới nè")
